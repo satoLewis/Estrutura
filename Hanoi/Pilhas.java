@@ -1,4 +1,4 @@
-package TDE1;
+package Hanoi;
 
 import java.util.Random;
 import java.util.Scanner;

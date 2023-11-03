@@ -1,3 +1,4 @@
+package Arvore;
 class Node {
   private Integer informacao;
   private Node proximo;
