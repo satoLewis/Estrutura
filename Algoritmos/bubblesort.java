@@ -29,17 +29,4 @@ public class bubblesort {
       }
     }
   }
-
-  public static void main(String[] args) {
-    bubblesort test = new bubblesort();
-    int[] t = {10, 25, 5, 3, 50, 14};
-    for (int i = 0; i < t.length; i++) {
-      System.out.println(t[i]);
-    }
-    test.bubble(t);
-    System.out.println("\n");
-    for (int i = 0; i < t.length; i++) {
-      System.out.println(t[i]);
-    }
-  }
 }

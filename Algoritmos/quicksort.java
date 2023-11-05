@@ -54,18 +54,4 @@ public class quicksort {
 
     return psuperior;
   }
-
-  public static void main(String[] args) {
-    int[] array = {12, 9,99, 10};
-
-    for (int i = 0; i < array.length; i++) {
-      System.out.println(array[i]);
-    }
-    quicksort qs = new quicksort();
-    qs.quick(array, 0, array.length - 1);
-    System.out.println("\n");
-    for (int i = 0; i < array.length; i++) {
-      System.out.println(array[i]);
-    }
-  }
 }
